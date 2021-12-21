@@ -12,7 +12,6 @@ const DessrtWinePage: NextPage = () => {
   return (
     <div>
       <h1>Wine</h1>
-
       <main>
         {data.map((wineData: Wine) => {
           const { id, wine, winery } = wineData;
