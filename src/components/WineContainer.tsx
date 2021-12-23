@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Error, Loading, WineCard } from ".";
+import { Error, Loading, WineCard } from "./";
 import { MEDIA_QUERY_END_POINT } from "../constants";
 import { useWineData } from "../hooks/useWineData";
 import { Wine } from "../types/Wine";
